@@ -5,7 +5,7 @@ on:
 
 jobs:
   messages:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Echo the message
         run: |
