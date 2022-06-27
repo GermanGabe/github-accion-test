@@ -1,0 +1,12 @@
+name: messages
+
+on:
+  push:
+
+jobs:
+  messages:
+    runs-on: ubuntu
+    steps:
+      - name: Echo the message
+        run: |
+          echo "first test 1"
